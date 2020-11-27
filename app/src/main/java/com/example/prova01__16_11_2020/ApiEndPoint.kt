@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 
 interface ApiEndPoint {
-    @GET("sobremesas")
+    @GET("droidcafe")
     fun obterSobremesas(): Call<List<Sobremesas>>
 }

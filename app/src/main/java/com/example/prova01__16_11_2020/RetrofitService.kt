@@ -7,7 +7,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitService {
-    val baseUrl = "http://angoti.atwebpages.com/droidcafe/"
+    val baseUrl = "http://angoti.atwebpages.com/"
     val api: ApiEndPoint? = criaRetrofit()?.create(ApiEndPoint::class.java)
 
     fun criaRetrofit(): Retrofit? {
