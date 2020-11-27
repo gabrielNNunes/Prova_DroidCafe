@@ -29,10 +29,6 @@ class MainActivity : AppCompatActivity() {
                     textDescricao2.text = lista?.get(1).descricao
                     textDescricao3.text = lista?.get(2).descricao
 
-                    lista?.get(0).valor = "R$ "+lista?.get(0).valor+",00"
-                    lista?.get(1).valor = "R$ "+lista?.get(1).valor+",00"
-                    lista?.get(2).valor = "R$ "+lista?.get(2).valor+",00"
-
                     textValor1.text = lista?.get(0).valor
                     textValor2.text = lista?.get(1).valor
                     textValor3.text = lista?.get(2).valor
